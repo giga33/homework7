@@ -148,7 +148,7 @@ body {
     font-family: Archivo;
     font-size: 30px;
     font-style: normal;
-    font-weight: 400; */
+    font-weight: 400; 
   }
   .img-section{
     width: 1350px;
@@ -193,4 +193,54 @@ body {
     margin-bottom: 110px;
 
   }
-  
+.email-sec{
+    width: 1340px;
+    height: 384px;
+    margin: auto;
+    background-image: url("../images/Path.svg");
+    background-repeat: no-repeat;
+    background: #FFD2C6, #FFFFFF;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+
+}
+.email-side{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.email-text2{
+    margin-top: 10px;
+    margin-bottom: 23px;
+    color: #3B3735;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.email-text1{
+    color: #3B3735;
+    font-family: Archivo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+.email-search{
+    display: flex;
+    width: 560px;
+    height: 80px;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.email-marg{
+    margin-right: 315px;
+}
